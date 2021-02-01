@@ -1,0 +1,736 @@
+/* oswald-300 - latin_cyrillic */
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/oswald-v35-latin_cyrillic-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/oswald-v35-latin_cyrillic-300.woff') format('woff'), /* Modern Browsers */
+
+  }
+  
+  /* oswald-regular - latin_cyrillic */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/oswald-v35-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/oswald-v35-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+  }
+  
+  /* oswald-600 - latin_cyrillic */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/oswald-v35-latin_cyrillic-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/oswald-v35-latin_cyrillic-600.woff') format('woff'), /* Modern Browsers */
+  }
+  
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* отключение отступов и маркеров списка */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.using-color {
+    color: #ffffff;
+    color: #787878;
+    color: #006c78;
+    color: #00355f;
+    color: #03392c;
+}
+
+/* отключение подчеркиваний ссылок */
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    /* маргины для того чтобы заставить элементы отцентроваться внутри своих контейнеров */
+    margin-right: auto;
+    margin-left: auto;
+    /* базовые паддинги для случаев уменьшения ширины экрана. ВЛИЯЮТ НА ШИРИНУ! */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* ========================================================================================================== */
+
+.section-header {
+    /* border-bottom: solid 2px #00355f; */
+    
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+    
+}
+
+.header-left {
+    display: flex;
+
+}
+
+.header-logo {
+    margin-right: 50px;
+}
+
+.logo {
+    margin-left: 5vh;
+    max-width: 100px;
+}
+
+.header-brand-name {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #006c78;
+}
+
+.header-brand-desc {
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    
+}
+
+.header-right {
+    display: flex;
+
+}
+
+.header-number {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.swift-language {
+    display: flex;
+}
+
+.lang-list-item {
+    margin-right: 10px;
+    
+}
+
+.lang-list-link {
+    font-size: 18px; 
+    font-weight: 600;
+    color: #00355f;
+}
+
+/* HEADER BOT */
+
+.header-nav {
+    margin-bottom: 20px;
+}
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 300px;
+}
+
+.header-nav-link {
+    font-size: 16px; 
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+   
+}
+
+.header-nav-link:hover {
+    border-bottom: #006c78 solid 6px;
+}
+
+
+/* HERO SECTION */
+
+.hero-section {   
+    background: url(/img/photo/005.2.jpg) right center no-repeat white;
+    background-position: contain;
+    
+    height: 550px;
+    margin-bottom: 70px;
+}
+
+.hero-section-brand {
+    
+    padding-top: 200px;
+    text-transform: uppercase;
+    font-size: 54px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    
+
+}
+
+.hero-section-desc {
+    margin-bottom: 20px;
+    font-size: 30px;
+    
+}
+
+.hero-section-desc-list {
+    margin-top: 15px;
+    max-width: 300px;
+    padding-bottom: 15px;
+}
+
+
+
+.hero-section-list {
+
+}
+
+.hero-section-item {
+
+}
+
+.hero-section-heading {
+}
+
+/* MAIN SECTION */
+
+.main-section {
+    margin-bottom: 70px;
+}
+.main-section-block {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main-section-item {
+    flex: 0 0 33.33%;
+    min-height: 500px;
+    border: #00355f solid 2px;
+
+}
+
+.main-section-item-field {
+    display: block;
+    background-color: #ffffff;
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+
+.main-section-about {
+    background: url(/img/photo/about.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.main-section-offers {
+    background-color: #006c78;
+}
+
+.main-section-payusavisit {
+    background: url(/img/photo/payusavisit4.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+.about-field {
+    margin-top: 270px;
+    border: #00355f solid 2px;
+
+}
+
+.payusavisit-field {
+    margin-top: 270px;
+    border: #00355f solid 2px;
+
+}
+
+
+
+.main-section-heading {
+    text-align: center;
+    
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #00355f;
+}
+
+.main-section-offers-desc {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 5px;
+    color: white;
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.main-section-btn {
+    display: block;
+    text-decoration: underline;
+    padding-bottom: 5px;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    padding-top: 10px;   
+}
+
+.offers-btn {
+    background-color:white;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    border: #00355f solid 2px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #00355f;
+}
+
+.main-section-offers-heading {
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 200px;
+
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+/* ПОРОДЫ */
+
+.breeds-section-heading {
+    margin-bottom: 20px;
+    
+}
+
+.breeds-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.breeds-section-item {
+    
+    max-width: 380px;
+    flex: 0 1 30%;
+    border: #00355f solid 2px;
+    margin-bottom: 20px;
+    
+
+}
+
+
+
+.section-services-picture {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.card-info-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.section-breeds-heading {
+    margin-bottom: 10px;
+    
+}
+.section-breeds-desc {
+    margin-bottom: 10px;
+    
+}
+
+.section-breeds-card-btn {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.breeds-card-btn {
+    display: inline-block;
+    border: #00355f solid 2px;
+    color: white;
+    background-color: #006c78;
+    border-radius: 2px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    padding-top: 9px ;
+    
+
+}
+
+/* FOOTER */
+
+
+
+.section-footer {
+    margin: 0;
+    padding: 0;
+    background-color: #006c78;
+    border-top: #00355f solid 3px;
+    height: 300px;
+}
+
+.footer-heading {
+    margin-bottom: 10px;
+}
+
+.footer-blocks {
+    margin-top: 20px;
+    display: flex;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.footer-adress-block {
+    flex: 1 1 20%;
+}
+
+.footer-nav-services {
+    flex: 1 1 20%;
+}
+
+.footer-nav-info {
+    flex: 1 1 20%;
+}
+
+.footer-contacts {
+    flex: 1 1 20%;
+}
+
+.social-list-block {
+    flex: 1 1 20%;
+}
+
+.footer-adress {
+    color: #ffffff;
+    font-style: normal;
+    line-height: 1.6;
+    margin-bottom: 6px;
+}
+
+.footer-map-link {
+    margin-left: -20px;
+    display: inline-block;
+    background-image: url(/img/icon/gps2.svg);
+    padding-left: 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+.footer-nav-item {
+    margin-bottom: 6px;
+}
+
+.footer-nav-link {
+    color: #ffffff;
+
+}
+
+
+.social-list {
+    margin-top: 15px;
+    display: flex;
+    height: 60px;
+
+
+}
+
+.social-item {
+    border: #ffffff solid 3px;
+    padding: 3px 3px 3px 3px;
+    border-radius: 5px;
+    margin-right: 5px;
+
+    
+}
+.social-pic {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: #ffffff;
+}
+.vk-icon {
+    mask-image: url(/img/icon/vk_icon.svg);
+    -webkit-mask-image: url(/img/icon/vk_icon.svg);
+}
+
+.fb-icon {
+    mask-image: url(/img/icon/facebook-icon.svg);
+    -webkit-mask-image: url(/img/icon/facebook-icon.svg);
+}
+
+.inst-icon {
+    mask-image: url(/img/icon/instagram-icon.svg); 
+    -webkit-mask-image: url(/img/icon/instagram-icon.svg);
+}
+
+.yt-icon {
+    mask-image: url(/img/icon/youtube-icon.svg);
+    -webkit-mask-image: url(/img/icon/youtube-icon.svg);
+}
+
+.mm-icon {
+    mask-image: url(/img/icon/mmir-icon.svg);
+    -webkit-mask-image: url(/img/icon/mmir-icon.svg);
+}
+
+.tw-icon {
+    mask-image: url(/img/icon/twitter-icon.svg); 
+    -webkit-mask-image: url(/img/icon/twitter-icon.svg); 
+}
+
+.avito-icon {
+    font-size: 47px;
+    line-height: 1;
+    font-weight: 600;
+    color: white;
+
+    
+}
+
+.footer-number {
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+
+.copyright {
+    color: white;
+    font-size: 13px;
+}
+
+/* ФОРМА */
+.form-section {}
+
+.form-main-heading {
+    color: #00355f;
+    margin-bottom: 13px;
+    padding-left: 20px;
+    border-bottom: #00355f solid 3px;
+    
+}
+
+.form-desc {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.form {
+    
+}
+
+.form-without-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-about-you {
+    flex: 1 1 33%;
+    margin-left: 20px;
+}
+
+.form-about-pet {
+    flex: 1 1 33%;
+}
+
+.form-add-options {
+    flex: 1 1 33%;
+}
+
+.form-block-heading {
+    margin-bottom: 6px;
+    margin-left: 25%;
+    word-wrap: none;
+}
+
+legend {
+    word-wrap: none;
+    width: 60%; 
+}
+
+.form-input-heading {
+    margin-bottom: 10px;
+    
+    flex: 1 1 40%;
+    
+}
+
+.form-input {
+    width: 60%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.form-radiobtn-list {
+    flex: 1 1 60%;
+    /* margin-left: -70px; */
+}
+
+.form-checkbox-list {
+    flex: 1 1 60%;
+}
+
+.form-radiobtn-item {
+    padding-bottom: 5px;
+}
+
+.form-radiobtn-lastitem {
+    
+}
+
+.form-radiobtn {}
+
+
+/* Минимальная высота списка со скроллингом 200 px.
+ При наличии места список стремится отобразить максимум вариантов и расширяется до высоты 450 px. */
+ /*  Отделите такой пункт линией. */
+ /* После открытия списка, кнопка остается нажатой: название кнопки и стрелка смещаются вниз на 1 px, как у обычной кнопки. */
+/* В списке выбранный вариант выделяется серым фоном, пункт под курсором инвертируется и подсвечивается синим.  */
+/* Пункты списка можно дополнять пояснениями — серым текстом, который при наведении превращается в белый с 60 % прозрачности.  */
+
+
+.form-selectmenu {
+    flex: 1 1 60%;
+    height: 30px;
+}
+
+
+.form-input-comment {
+    width: 60%;
+    max-width: 350px;
+    max-height: 400px;
+}
+
+.form-heading-list-block {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form-subtitle {}
+
+.form-infolink-list {}
+
+.form-infolink-item {}
+
+.form-infolink-link {}
+
+.form-submit-btn {
+    display: block;
+    margin: 15px auto;
+}
+
+.opt {
+
+}
+
+option:checked {
+    background: #006c78 linear-gradient(#006c78, #006c78);
+    color: #ffffff;
+  }
+
+input::placeholder {
+    color: #A0a0a0;
+}
+
+input:focus::placeholder{
+    color: #cdcdcd;
+}
+
+input:focus {
+    border: rgb(81, 153, 219) solid 2px;
+    
+}
+
+  /* =============== */
+
+  .onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 15px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Да";
+    padding-left: 10px;
+    background-color: #006c78; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Нет";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #00355f;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 20px; margin: 5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #00355f; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
