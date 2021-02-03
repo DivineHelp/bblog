@@ -16,7 +16,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": true,
-            "pythonPath": "C:\\Program Files (x86)\\Python\\python.exe",
+            "python": "C:\\Program Files (x86)\\Python\\python.exe",
             "program": "${file}",
             "cwd": "${workspaceRoot}",
             "env": null,
